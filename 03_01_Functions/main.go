@@ -37,6 +37,13 @@ func returnName2(x int, y int) (r1 int, r2 int) {
 	return
 }
 
+func returnNoName2(x int, y int) (int, int) {
+	var r1, r2 int
+	r1 = x + 10
+	r2 = x + 20
+	return r1, r2
+}
+
 func returnName3(x int, y int) (r1, r2 int) {
 	r1 = x + 10
 	r2 = x + 20
